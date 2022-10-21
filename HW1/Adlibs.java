@@ -1,4 +1,5 @@
 package HW1;
+
 // make a method that accepts 2 Strings and 1 int (Someones name, age, and favorite color and then returns a story about them)
 // Hint1: The objects name is Adlibs and you require a name age and favoriteColor all in strings
 // Hint2: You will need to return a string. You can concat the variables and the strings together
@@ -6,6 +7,13 @@ package HW1;
 //        color is ___"
 public class Adlibs {
     public String story(String name, int age, String favoriteColor) {
-        return null; // replace null with your code
+        String answer;
+        if (age < 0 || age > 100) {
+            answer = "Hey " + name + ", are you even human?";
+        } else {
+            answer = "Hi " + name + "! I think " + age + " is a pretty kewl age. The color " + favoriteColor
+                    + " is kewl too.";
+        }
+        return answer; // replace null with your code
     }
 }
