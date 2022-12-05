@@ -51,7 +51,7 @@ public class Arrays {
     }
 
     // Create a method that will sort an Array of integers from smallest to greatest.
-    // NOTE: You CANNOT use the built in Array.sort method
+    // NOTE: You CANNOT use the built in Arrays.sort method
     // Ex. 
     // sorter([9,10,2,5,3,4,7,8]) -> [2,3,4,5,7,8,9,10]
 
@@ -59,7 +59,6 @@ public class Arrays {
     // Hint 2: 2 nested For loops should be all thats needed for the swapping logic
     public static int[] sorter(int[] nums){
         int [] sortedArray = new int[nums.length];
-
         return sortedArray;
     }
 
@@ -67,6 +66,7 @@ public class Arrays {
 
 
     public static void main(String[] args) {
+        // Tester main method for your methods
         System.out.println("Hello World!");
 
     }
