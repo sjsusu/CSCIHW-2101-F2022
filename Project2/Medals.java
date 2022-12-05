@@ -18,7 +18,7 @@ public class Medals {
          Russia       0       1       1       2
   United States       1       1       0       2
 
-    After that create an ARRAYLIST that is the total of each medal awarded (IE 4 gold, 4 silver, 5 bronze)
+    After that create an ArrayList that is the total of each medal awarded (IE 4 gold, 4 silver, 5 bronze)
     print the total of each medal 
     Hints:
         int rows = counts.length; (get the rows)
@@ -71,6 +71,7 @@ public class Medals {
 
 
         // TODO
+        // NOTE: THIS CAN BE DONE WITH AN ARRAY OR ARRAY LIST OR BOTH IF YOU FIND IT EASIER
         // Print countries, counts, and row totals (IE total medals by country)
         // for formatting use these printf statements
         // System.out.printf("%15s", countries[i]);
@@ -88,13 +89,13 @@ public class Medals {
 
 
         // Display the total medals of each medal class
-        // First create an Integer ArrayList called medalCounts 
+        // First create an Integer Array/ArrayList called medalCounts 
         // your rows are counts.length
         // your columns are counts[0].length
 
         // Make a for loop that will calculate the sum for each column 
         // hint: make a temp variable for the sum and then at the end of the for loop add each sum of
-        // each column to the ArrayList medalCounts
+        // each column to the Array/ArrayList medalCounts
         // print the Array list and chart to look like this
         // Gold    Silver    Bronze
         // 4       4         5

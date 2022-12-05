@@ -10,7 +10,7 @@ public class ArrayListPlayground {
         System.out.println("Start of HW5");
         // Question 1
         // Write Java statements that do the following:
-        // a) Declare an arrayList nums of 15 elements of type int.
+        // a) Declare an arrayList nums of 15 elements of type Integer.
         // b) Output the value of the tenth element of the array nums.
         // c) Set the value of the 5th element of the array nums to 99.
         // d) set the value of the 13th element to 15
