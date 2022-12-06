@@ -11,7 +11,7 @@ public class Medals {
 
          Country   Gold    Silver    Bronze  Total
          Canada       1       0       1       2
-          China       1       1       0       2
+          China       1       1       1       3
         Germany       0       0       1       1
           Korea       1       0       0       1
           Japan       0       1       1       2
@@ -33,7 +33,7 @@ public class Medals {
 
         Country    Gold    Silver    Bronze  Total
          Canada       1       0       1       2
-          China       1       1       0       2
+          China       1       1       1       3
         Germany       0       0       1       1
           Korea       1       0       0       1
           Japan       0       1       1       2
